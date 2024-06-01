@@ -1,0 +1,11 @@
+/* CSS for photo gallery */
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+.photo-gallery img {
+    max-width: 100%;
+    height: auto;
+}
